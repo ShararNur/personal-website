@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 900px;
+}
+
+.top-banner {
+  background-image: url(./personal-website/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.intro-text h1 {
+  color: #ec4c7a;
+  font-size: 55px;
+  margin-top: -8%;
+  margin-bottom: 7%;
+}
+
+.intro-text p {
+  color: #7b7b7b;
+  margin-bottom: 10%;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  margin-top: 6%;
+}
+
+.intro-text {
+  margin-left: 20%;
+  padding-top: 25%;
+}
+
+.top-banner img {
+  width: 100%;
+  padding-top: 10%;
+  margin-left: -5%;
+}
+
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ec5195, #ed4b72);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.biography {
+  background-image: url(./personal-website/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.biography img {
+  width: 100%;
+}
+
+.bio-text {
+  margin-top: 26%;
+}
+
+.bio-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.bio-text p {
+  color: #7b7b7b;
+  margin-bottom: 10%;
+}
+
+.latest-work {
+  background-image: url(./personal-website/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.works-list {
+  width: 85%;
+  float: left;
+  margin-left: 8%;
+  margin-top: 6%;
+}
+
+.works-list h2 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 8%;
+}
+
+.work-images img {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.contact {
+  text-align: center;
+  background-image: url(./personal-website/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact h1 {
+  margin-bottom: -1%;
+}
+
+.contact h2 {
+  font-size: 45px;
+  font-weight: 501;
+  margin-bottom: 6%;
+}
+
+.designation {
+  color: #7b7b7b;
+  font-weight: 500;
+}
+
+.mail-box {
+  text-decoration: none;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 6%;
+  background-image: linear-gradient(
+    45deg,
+    rgb(236, 81, 149),
+    rgb(237, 75, 114)
+  );
+  padding: 3% 0% 4% 0%;
+  border-radius: 13px;
+  color: white;
+}
+
+.about-me {
+  margin-top: 4%;
+  font-size: larger;
+  font-weight: 500;
+}
+
+span {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  margin-top: -5%;
+  color: #7b7b7b;
+}
